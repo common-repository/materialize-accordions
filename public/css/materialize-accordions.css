@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+.collapsible {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+}
+.collapsible-head {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #e8e8e8;
+    font-family: "freight-micro-pro","Georgia",serif;
+    font-size: 22px;
+    border-radius: 3px;
+    color: #333333;
+}
+.collapsible-head .title-wrap {
+    line-height: 27px;
+    padding: 15px;
+}
+ 
+.collapsible-head:focus {
+     outline: 0 
+}
+.collapsible li {
+     list-style: none;
+}
+.materialize-wrapper .materialize-wrapper .btn-container ~ ul.collapsible li {
+    list-style: none;
+}
+.materialize-wrapper .single-section ul li {
+    list-style: disc;
+}
+.single-section ol li {
+    list-style: decimal;
+}
+.single-section ul, .single-section ol {
+    margin: 5px 0;
+}
+.collapsible-body {
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    background-color: #fff;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: none;
+}
+.collapsible-body a {
+        text-decoration: underline;
+}
+.keyboard-focused .collapsible-head:focus {
+     background-color:#eee 
+} 
+.collapsible-head:focus {
+    outline: 1px auto rgba(0, 150, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.materialize-wrapper {
+    padding: 20px 0;
+}
+.materialize-wrapper .section-title {
+    color: #003262;
+    font-size: 26px;
+    font-family: "freight-micro-pro","Georgia",serif;
+    width: 100%;
+    margin: 0px 5px;
+}
+ .materialize-wrapper .btn-container {
+     text-align: right;
+     float: none;
+}
+ .btn-container .bk-bkg-text {
+     color: #003262;
+     background: transparent;
+     text-transform: initial;
+}
+ .single-section {
+     margin: 10px 0;
+}
+.metapro {
+    opacity: .5
+}
+ /* icons */
+ @font-face {
+     font-family: 'Material Icons';
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+ .collapsible-head .material-icons {
+     font-family: 'Material Icons';
+     font-weight: normal;
+     font-style: normal;
+     font-size: 20px;
+     letter-spacing: normal;
+     text-transform: none;
+     color: #4A4A4A;
+     white-space: nowrap;
+     padding:   15px 15px 0 15px;
+     float: right;
+     -moz-font-feature-settings: 'liga';
+     -moz-osx-font-smoothing: grayscale;
+}
